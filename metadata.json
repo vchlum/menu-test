@@ -1,0 +1,14 @@
+{
+    "uuid": "menu-test@chlumskyvaclav.gmail.com",
+    "name": "Menu test",
+    "description": "This extension tests menu",
+    "version": 1,
+    "original-author": "chlumskyvaclav@gmail.com",
+    "shell-version": [
+      "3.36",
+      "3.38",
+      "40.0"
+    ],
+    "gettext-domain": "menu-test",
+    "url": "https://github.com/vchlum/menu-test"
+}
