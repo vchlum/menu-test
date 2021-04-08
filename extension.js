@@ -48,12 +48,13 @@ var MenuTest = GObject.registerClass({
             "This will be opened"
         );
 
-        let item = new PopupMenu.PopupMenuItem(
-            "nothing here"
-        )
+        for (let i = 0; i < 10; i++) {
+            let item = new PopupMenu.PopupMenuItem(
+                "nothing here"
+            )
 
-        subMenuToOpen.menu.addMenuItem(item);
-
+            subMenuToOpen.menu.addMenuItem(item);
+        }
         return (subMenuToOpen);
    }
 
